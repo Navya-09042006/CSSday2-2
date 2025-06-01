@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .li {
+        list-style: none;
+        padding: 0;
+      }
+      .li li::before {
+        content: "*";
+        color: brown;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="li">
+      <li>Hummus</li>
+      <li>Pita</li>
+      <li>Green salad</li>
+      <li>Halloumi</li>
+    </ul>
+  </body>
+</html>
